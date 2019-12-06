@@ -6,7 +6,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12 col-sm-12 col-lg-8 offset-lg-2 wow fadeInUp" data-wow-duration="0" data-wow-delay="0s">
-            <div class="free-quote-form contact-page">
+            <div class="free-quote-form">
                 <!-- Heading Main -->
                 <h1 class="heading-main mb-4">
                   Get in touch

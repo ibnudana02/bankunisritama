@@ -65,51 +65,50 @@
           <!-- Heading Main -->
           <div class="col-sm-12 wow fadeInDown" data-wow-duration="0" data-wow-delay="0s">
             <h1 class="heading-main">
-              <span>What We Offer</span>
-              Our Core Services
+              Our Regulator
             </h1>
           </div>
           <!-- Heading Main -->
 
 
-          <div class="col-md-2 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0.1s">
+          <div class="col-md-2 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0.2s">
             <a href="https://www.lps.go.id">
             <div class="blog-warp">
                   <img src="<?= base_url('assets/');?>images/lembaga/LPS.jpg" alt="" class="rounded">
                 </div>
             </div>
             </a>
-            <div class="col-md-2 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0.1s">
+            <div class="col-md-2 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0.2s">
               <a href="https://ojk.go.id" target="_blank">
                 <div class="blog-warp">
                   <img src="<?= base_url('assets/');?>images/lembaga/OJK-Logo.jpg" alt="" class="rounded">
                 </div>
                 </a>
             </div>
-            <div class="col-md-2 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0.1s">
+            <div class="col-md-2 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0.2s">
             <a href="http://ayokebank.com/" target="_blank">
                     <div class="blog-warp">
                       <img src="<?= base_url('assets/');?>images/lembaga/ayokebank.jpg" alt="" class="rounded">
                     </div></a>
             </div>
-            <div class="col-md-2 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0.1s">
-              <a href="https://ojk.go.id" target="_blank">
+            <div class="col-md-2 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0.2s">
+              <a href="https://www.bi.go.id" target="_blank">
                 <div class="blog-warp">
-                  <img src="<?= base_url('assets/');?>images/lembaga/logo-bi.jpg" alt="" class="rounded">
+                  <img src="<?= base_url('assets/');?>images/lembaga/bi.jpg" alt="" class="rounded">
                 </div>
                 </a>
             </div>
-            <div class="col-md-2 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0.1s">
+            <div class="col-md-2 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0.2s">
               <a href="https://www.perbarindo.org" target="_blank">
                 <div class="blog-warp">
                   <img src="<?= base_url('assets/');?>images/lembaga/logo-perbarindo.jpg" alt="" class="rounded">
                 </div>
                 </a>
             </div>
-            <div class="col-md-2 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0.1s">
+            <div class="col-md-2 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0.2s">
             <a href="#" target="_blank">
                     <div class="blog-warp">
-                      <img src="<?= base_url('assets/');?>images/lembaga/ylpi-logo.jpg" alt="" class="rounded">
+                      <img src="<?= base_url('assets/');?>images/lembaga/ylpi.jpg" alt="" class="rounded">
                     </div></a>
             </div>
         </div>
