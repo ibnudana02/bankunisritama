@@ -1,5 +1,5 @@
 <!-- Main Footer Start -->
-  <footer class="wide-tb-30 bg-sky-blue pb-0">
+  <footer class="wide-tb-ibn bg-sky-blue pb-0">
     <div class="container">
       <div class="row">
 
@@ -23,8 +23,8 @@
         </div>
         <!-- Column First -->
           <!-- Column Second -->
-          <div class="col-lg-2 col-md-6">
-          <h3 class="footer-heading">Quick Navigation</h3>
+          <div class="col-lg-2 col-md-6 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0.3s">
+          <h3 class="footer-heading">Menu Pintasan</h3>
           <div class="footer-widget-menu">
             <ul class="list-unstyled">
               <li><a href="#"><i class="icofont-simple-right"></i> <span>Home</span></a></li>
@@ -37,8 +37,8 @@
         </div>
         <!-- Column Second -->
         <!-- Column Third -->
-        <div class="col-lg-6 col-md-6">
-          <h3 class="footer-heading">Get In Touch</h3>
+        <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0.4s">
+          <h3 class="footer-heading">Siap Melayani Anda :</h3>
           <div class="footer-widget-contact">
             <div class="media mb-3">
               <i class="icofont-google-map mr-3"></i>

@@ -24,7 +24,7 @@
 
           <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="about-us.html">Home</a>
+                <a class="nav-link" href="<?= base_url();?>">Home</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle-mob" href="index.html" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tentang Kami <i class="icofont-rounded-down"></i></a>                
@@ -43,7 +43,13 @@
                 <ul class="dropdown-menu" aria-labelledby="dropdown03">
                   <li><a class="dropdown-item" href="index.html">Pembayaran Mahasiswa</a></li>
                       <li><a class="dropdown-item" href="index-2.html">Online Payment</a></li>
-                      <li><a class="dropdown-item" href="index-2.html">Deposito</a></li>
+                      <li class="dropdown">
+                        <a class="dropdown-toggle-mob dropdown-item" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Deposito <i class="icofont-rounded-right float-right"></i></a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a href="#" class="dropdown-item">Deposito Masyarakat</a></li>
+                        <li><a href="#" class="dropdown-item">Deposito Bank Umum</a></li>
+                      </ul>
+                      </li>
                       <li class="dropdown">
                       <a class="dropdown-toggle-mob dropdown-item" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tabungan <i class="icofont-rounded-right float-right"></i></a>
                       <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -70,6 +76,7 @@
                   <li><a class="dropdown-item" href="shortcodes-element.html">Artikel</a></li>
                   <li><a class="dropdown-item" href="typography.html">Laporan Publikasi</a></li>                  
                   <li><a class="dropdown-item" href="request-page.html">GCG Report</a></li>
+                  <li><a class="dropdown-item" href="request-page.html">Pengkinian Data Nasabah</a></li>
                 </ul>
               </li>
               <li class="nav-item">

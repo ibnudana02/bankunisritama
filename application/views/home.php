@@ -75,34 +75,34 @@
                 </div>
             </div>
             </a>
-            <div class="col-md-2 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0.2s">
+            <div class="col-md-2 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0.3s">
               <a href="https://ojk.go.id" target="_blank">
                 <div class="blog-warp">
                   <img src="<?= base_url('assets/');?>images/lembaga/OJK-Logo.jpg" alt="" class="rounded">
                 </div>
                 </a>
             </div>
-            <div class="col-md-2 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0.2s">
+            <div class="col-md-2 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0.4s">
             <a href="http://ayokebank.com/" target="_blank">
                     <div class="blog-warp">
                       <img src="<?= base_url('assets/');?>images/lembaga/ayokebank.jpg" alt="" class="rounded">
                     </div></a>
             </div>
-            <div class="col-md-2 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0.2s">
+            <div class="col-md-2 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0.5s">
               <a href="https://www.bi.go.id" target="_blank">
                 <div class="blog-warp">
                   <img src="<?= base_url('assets/');?>images/lembaga/logo-bi.jpg" alt="" class="rounded">
                 </div>
                 </a>
             </div>
-            <div class="col-md-2 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0.2s">
+            <div class="col-md-2 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0.6s">
               <a href="https://www.perbarindo.org" target="_blank">
                 <div class="blog-warp">
                   <img src="<?= base_url('assets/');?>images/lembaga/logo-perbarindo.jpg" alt="" class="rounded">
                 </div>
                 </a>
             </div>
-            <div class="col-md-2 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0.2s">
+            <div class="col-md-2 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0.7s">
             <a href="https://uir.ac.id/yayasan" target="_blank">
                     <div class="blog-warp">
                       <img src="<?= base_url('assets/');?>images/lembaga/YLPI.jpg" alt="" class="rounded">

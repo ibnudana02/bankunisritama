@@ -1,5 +1,5 @@
 <!-- Fullscreen Slider Start -->
-<div class="slider bg-navy-blue">
+<div class="slider bg-navy-blue col-8">
     <div id="rev_slider_1078_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="classic4export" data-source="gallery" style="margin:0px auto;background-color:transparent;padding:0px;margin-top:0px;margin-bottom:0px;"> 
       <!-- START REVOLUTION SLIDER 5.4.1 fullwidth mode -->
       <div id="rev_slider_1078_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.4.1">
