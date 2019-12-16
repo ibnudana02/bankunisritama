@@ -44,7 +44,7 @@
 
             <span class="mr-3"><i class="icofont-phone"></i> (0761) - 63381</span>
 
-            <span class="mr-3"><i class="icofont-ui-email"></i> Email Us</span>
+            <span class="mr-3"><i class="icofont-ui-email"></i> unisritama@yahoo.co.id</span>
             <!-- Topbar Language Dropdown Start -->
                        
             <!-- Topbar Language Dropdown End -->          

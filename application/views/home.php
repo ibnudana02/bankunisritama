@@ -33,7 +33,7 @@
                 <!-- <i class="icofont-fire-truck"></i> -->
                 <i class="icofont-bank"></i>
                 <h4 class="h4-md mb-3">Produk Dana</h4>
-                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis. Vivamus ac ultrices diam, vitae accumsan tellus.</p>
+                <p>Ketahui Produk Tabungan dan Deposito Bank Unisritama.</p>
               </div> 
             </a>
             <!-- Icon Box -->
@@ -47,7 +47,7 @@
                 <!-- <i class="icofont-ship"></i> -->
                 <i class="icofont-handshake-deal"></i>
                 <h4 class="h4-md mb-3">Produk Kredit</h4>
-                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis. Vivamus ac ultrices diam, vitae accumsan tellus.</p>
+                <p>Jenis Kredit yang Sesuai dengan Kebutuhan Anda.</p>
               </div> 
             </a>
             <!-- Icon Box -->
@@ -56,14 +56,11 @@
         </div>
         
       </div>
-    </section>
-    <!-- What Makes Us Special End -->    
 
-    <section class="wide-tb-30">
       <div class="container">
         <div class="row">
           <!-- Heading Main -->
-          <div class="col-sm-12 wow fadeInDown" data-wow-duration="0" data-wow-delay="0s">
+          <div class="col-sm-12 wow fadeInDown" style="margin-top: 70px;" data-wow-duration="0" data-wow-delay="0s">
             <h1 class="heading-main">
               Our Regulator
             </h1>
@@ -94,7 +91,7 @@
             <div class="col-md-2 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0.2s">
               <a href="https://www.bi.go.id" target="_blank">
                 <div class="blog-warp">
-                  <img src="<?= base_url('assets/');?>images/lembaga/bi.jpg" alt="" class="rounded">
+                  <img src="<?= base_url('assets/');?>images/lembaga/logo-bi.jpg" alt="" class="rounded">
                 </div>
                 </a>
             </div>
@@ -106,9 +103,9 @@
                 </a>
             </div>
             <div class="col-md-2 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0.2s">
-            <a href="#" target="_blank">
+            <a href="https://uir.ac.id/yayasan" target="_blank">
                     <div class="blog-warp">
-                      <img src="<?= base_url('assets/');?>images/lembaga/ylpi.jpg" alt="" class="rounded">
+                      <img src="<?= base_url('assets/');?>images/lembaga/YLPI.jpg" alt="" class="rounded">
                     </div></a>
             </div>
         </div>
