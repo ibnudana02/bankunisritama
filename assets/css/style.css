@@ -824,7 +824,8 @@ h2.h2-xl { font-size: 1.5rem; }     /* 24px */
 }
 footer{
     font-size: 0.875rem;
-    color: rgb(155, 155, 155);
+    color: rgb(12, 12, 12);
+    /* color: rgb(155, 155, 155); */
     line-height: 1.714;
 }
 .logo-footer{
@@ -1295,12 +1296,14 @@ footer .social-icons a:hover{
     padding: 0 10px;
 }
 .footer-widget-contact i{
-    color: #99a0a3;
+    color: #188144;
+    /* color: #99a0a3; */
     font-size: 24px;
     margin-top: 4px;
 }
 .footer-widget-contact a{
-    color: #ff3514;
+    color: #2baed6;
+    /* color: #ff3514; */
 }
 .footer-widget-tweet i{
     color: #99a0a3;

@@ -11,7 +11,7 @@
           <p><b>~ Menjadi BPR yang Sehat, Kuat, Tumbuh dan Berkembang dengan mengutamakan prinsip Transparancy, Accountability, Responsibility, Independency, and Fairness” di Tahun 2023. ~</b></p>
           <p></p>
 
-          <h3 class="footer-heading">Visit Us</h3>
+          <h3 class="footer-heading">Kunjungi Kami :</h3>
           <div class="social-icons">
               <a href="https://www.facebook.com/bankunisritama/" target="_blank"><i class="icofont-facebook" data-toggle="tooltip" data-placement="top" title="Facebook"></i></a> 
               <a href="https://twitter.com/bpr_unisritama" target="_blank"><i class="icofont-twitter" data-toggle="tooltip" data-placement="top" title="Twitter"></i></a> 
@@ -22,6 +22,57 @@
             </div>
         </div>
         <!-- Column First -->
+          <!-- Column Second -->
+          <div class="col-lg-2 col-md-6">
+          <h3 class="footer-heading">Quick Navigation</h3>
+          <div class="footer-widget-menu">
+            <ul class="list-unstyled">
+              <li><a href="#"><i class="icofont-simple-right"></i> <span>Home</span></a></li>
+              <li><a href="#"><i class="icofont-simple-right"></i> <span>Tentang Kami</span></a></li>
+              <li><a href="#"><i class="icofont-simple-right"></i> <span>Produk Layanan</span></a></li>
+              <li><a href="#"><i class="icofont-simple-right"></i> <span>News</span></a></li>
+              <li><a href="#"><i class="icofont-simple-right"></i> <span>Contact</span></a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- Column Second -->
+        <!-- Column Third -->
+        <div class="col-lg-6 col-md-6">
+          <h3 class="footer-heading">Get In Touch</h3>
+          <div class="footer-widget-contact">
+            <div class="media mb-3">
+              <i class="icofont-google-map mr-3"></i>
+              <div class="media-body">
+                <div class="div">Jl. Soekarno-Hatta No. 03, Desa Kubang Jaya (Kantor Pusat)</div>
+                <div class="div">Jl. Kaharudin Nasution, UIR (Kantor Pelayanan Kas UIR)</div>
+              </div>
+            </div>
+            <div class="media mb-3">
+              <i class="icofont-phone mr-3"></i>
+              <div class="media-body">
+                <div>(0761) - 63381 </div>
+                <div>(0761) - 675119 </div>
+              </div>
+            </div>
+            <div class="media mb-3">
+              <i class="icofont-ui-email mr-3"></i>
+              <div class="media-body">
+                <div><a href="#">bprn5677@bprunisritama.com</a></div>
+                <div><a href="#">info@bprunisritama.com</a></div>
+              </div>
+            </div>
+            <div class="media mb-3">
+              <i class="icofont-clock-time mr-3"></i>
+              <div class="media-body">
+                <div><strong>Senin - Jum'at</strong></div>
+                <div>08.00 WIB - 16.00 WIB (Kantor Pusat)</div>
+                <div>08.00 WIB - 15.00 WIB (Kantor Pelayanan Kas UIR)</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Column Third -->
+
       </div>
     </div>  
 
