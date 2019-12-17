@@ -971,8 +971,8 @@ footer .social-icons a:hover{
     border-bottom: 4px solid #fafafa;
 }
 .top-border .top-bar-right i{
-    /* color: #126e2e; */
-    color: #ff3514;
+    color: #126e2e;
+    /* color: #ff3514; */
     
     
 }
@@ -1395,3 +1395,18 @@ label.error {
     padding: 0;
     margin: 10px 0 0 0;
 }
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+    }
+    .video-container iframe,
+    .video-container object,
+    .video-container embed {
+    position: absolute;
+    top: 20;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }

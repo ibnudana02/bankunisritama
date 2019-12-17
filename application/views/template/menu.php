@@ -29,7 +29,7 @@
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle-mob" href="index.html" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tentang Kami <i class="icofont-rounded-down"></i></a>                
                 <ul class="dropdown-menu" aria-labelledby="dropdown03">
-                  <li><a class="dropdown-item" href="index.html">Profil Perusahaan</a></li>
+                  <li><a class="dropdown-item" href="<?= base_url('tentang_kami/profil');?>">Profil Perusahaan</a></li>
                       <li><a class="dropdown-item" href="index-2.html">Sejarah</a></li>
                       <li><a class="dropdown-item" href="index-3.html">Visi & Misi</a></li>
                       <li><a class="dropdown-item" href="index-4.html">Board Manajemen</a></li>

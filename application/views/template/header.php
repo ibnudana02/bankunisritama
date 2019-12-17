@@ -9,7 +9,7 @@
     <!-- xxx Change With Your Information xxx -->    
     <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no" />
     <!-- <title>Home • Bank Unisritama</title> -->
-    <title>Bank Unisritama - Home</title>
+    <title>Bank Unisritama - <?php echo $page;?></title>
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url('assets/')?>images/ico.png">
     <!-- Core Css Stylesheets -->
     <link href="<?php echo base_url('assets/')?>css/base.css" rel="stylesheet">
@@ -38,24 +38,22 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col">
-            <i class="icofont-google-map"></i>  Jl. Soekarno-Hatta No. 03, Pekanbaru
+            <i class="icofont-location-pin"></i>  Jl. Soekarno-Hatta No. 03, Pekanbaru
+            <!-- <i class="icofont-institution"></i>  Jl. Soekarno-Hatta No. 03, Pekanbaru -->
           </div>
           <div class="col-md-auto">
-
             <span class="mr-3"><i class="icofont-phone"></i> (0761) - 63381</span>
-
             <span class="mr-3"><i class="icofont-ui-email"></i> unisritama@yahoo.co.id</span>
             <!-- Topbar Language Dropdown Start -->
             <div class="dropdown d-inline-flex lang-toggle shadow-sm">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-hover="dropdown" data-animations="slideInUp slideInUp slideInUp slideInUp">
-                <img src="<?php echo base_url('assets/')?>images/us.svg" alt="" class="dropdown-item-icon"> 
-                <span class="d-inline-block d-lg-none">US</span>
-                <span class="d-none d-lg-inline-block">United States</span> <i class="icofont-rounded-down"></i>
+                <span class="d-inline-block d-lg-none">Kunjungi Kami</span>
+                <span class="d-none d-lg-inline-block">Kunjungi Kami</span> <i class="icofont-rounded-down"></i>
               </a>
               <div class="dropdown-menu dropdownhover-bottom dropdown-menu-right" role="menu">
-                <a class="dropdown-item active" href="#">English</a>
-                <a class="dropdown-item" href="#">Deutsch</a>
-                <a class="dropdown-item" href="#">Español&lrm;</a>
+                <a class="dropdown-item active" href="#"><i class="icofont-instagram"></i> Instagram</a>
+                <a class="dropdown-item" href="#"><i class="icofont-facebook"></i> Facebook</a>
+                <a class="dropdown-item" href="#"><i class="icofont-whatsapp"></i> Whatsapp&lrm;</a>
               </div>
             </div>  
             <!-- Topbar Language Dropdown End -->          
