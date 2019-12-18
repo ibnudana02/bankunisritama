@@ -1071,7 +1071,8 @@ footer .social-icons a:hover {
 }
 
 .copyright-wrap {
-    margin-top: 70px;
+    margin-top: 10px;
+    /* margin-top: 70px; */
     color: #FFF;
     font-size: 0.75rem;
 }

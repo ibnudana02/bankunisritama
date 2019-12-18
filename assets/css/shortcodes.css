@@ -913,6 +913,11 @@
 	padding-bottom: 30px;
 }
 
+.wide-tb-footer {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
 .wide-tb-ibn {
 	padding-top: 50px;
 	padding-bottom: 30px;
@@ -921,7 +926,7 @@
 .wide-tb-ibnu {
 	/* margin-top: 130px; */
 	margin-top: 136px;
-	padding-top: 20px;
+	padding-top: 40px;
 }
 
 

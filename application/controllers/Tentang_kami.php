@@ -27,7 +27,7 @@ class Tentang_kami extends CI_Controller
     public function visi_misi()
     {
         $data['topic'] = "Tentang Kami";
-        $data['page'] = "Sejarah";
+        $data['page'] = "Visi dan Misi";
         $this->load->view('template/header', $data);
         $this->load->view('tentang/profil');
         $this->load->view('template/footer');
