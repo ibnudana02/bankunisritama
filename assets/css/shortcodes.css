@@ -929,6 +929,11 @@
 	padding-top: 40px;
 }
 
+.wide-tb-visi {
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
 
 /*------------------------------------------*/
 /*    Icon Box Style
@@ -1834,7 +1839,7 @@
 /*    List Icon Style
 /*------------------------------------------*/
 .icons-listing li {
-	padding: 0 0 20px 35px;
+	padding: 0 0 5px 35px;
 	position: relative;
 }
 
@@ -1847,7 +1852,8 @@
 }
 
 .icons-listing.theme-orange li i {
-	color: #ff3514;
+	color: #1b8550;
+	/* color: #ff3514; */
 }
 
 .icons-listing.theme-blue li i {

@@ -29,7 +29,7 @@ class Tentang_kami extends CI_Controller
         $data['topic'] = "Tentang Kami";
         $data['page'] = "Visi dan Misi";
         $this->load->view('template/header', $data);
-        $this->load->view('tentang/profil');
+        $this->load->view('tentang/visi_misi');
         $this->load->view('template/footer');
     }
 }
