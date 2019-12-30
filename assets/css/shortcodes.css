@@ -107,7 +107,17 @@
 }
 
 .bg-sky-blue {
+	/* background: #575757; */
 	background: #d1d4d5;
+}
+
+.bg-sky-dark {
+	background: #929292;
+	/* background: #d1d4d5; */
+}
+
+.bg-green {
+	background: #109166;
 }
 
 /* .bg-sky-blue{ background: #f1fbff; } */
@@ -158,7 +168,8 @@
 }
 
 .btn-theme {
-	color: #FFF !important;
+	color: rgb(56, 158, 87) !important;
+	/* color: #FFF !important; */
 	padding: 0.5rem 1.9rem;
 	font-weight: 400;
 	font-size: 0.875rem;
@@ -919,7 +930,7 @@
 }
 
 .wide-tb-ibn {
-	padding-top: 50px;
+	padding-top: 30px;
 	padding-bottom: 30px;
 }
 

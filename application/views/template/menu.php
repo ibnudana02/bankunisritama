@@ -16,7 +16,6 @@
     <!-- Toggle Button End -->
 
     <div class="collapse navbar-collapse" id="navbarCollapse" data-hover="dropdown" data-animations="slideInUp slideInUp slideInUp slideInUp">
-
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
           <a class="nav-link" href="<?= base_url(); ?>">Home</a>

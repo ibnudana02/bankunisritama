@@ -1,5 +1,5 @@
 <!-- Main Footer Start -->
-<footer class="wide-tb-ibn bg-sky-blue pb-0">
+<footer class="wide-tb-ibn bg-sky-dark pb-0">
   <div class="container">
     <div class="row">
 
@@ -8,8 +8,7 @@
         <div class="logo-footer">
           <img src="<?php echo base_url('assets/') ?>images/bpr-logo1.png" alt="">
         </div>
-        <p><b>~ Menjadi BPR yang Sehat, Kuat, Tumbuh dan Berkembang dengan mengutamakan prinsip Transparancy, Accountability, Responsibility, Independency, and Fairness” di Tahun 2023. ~</b></p>
-        <p></p>
+        <p class="text-justify"><b>~ Menjadi BPR yang Sehat, Kuat, Tumbuh dan Berkembang dengan mengutamakan prinsip Transparancy, Accountability, Responsibility, Independency, and Fairness” di Tahun 2023. ~</b></p>
 
         <h3 class="footer-heading">Kunjungi Kami :</h3>
         <div class="social-icons">
@@ -38,29 +37,8 @@
       <!-- Column Second -->
       <!-- Column Third -->
       <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0.4s">
-        <h3 class="footer-heading">Siap Melayani Anda :</h3>
+        <h3 class="footer-heading">Jam Pelayanan</h3>
         <div class="footer-widget-contact">
-          <div class="media mb-1">
-            <i class="icofont-google-map mr-3"></i>
-            <div class="media-body">
-              <div class="div">Jl. Soekarno-Hatta No. 03, Desa Kubang Jaya (Kantor Pusat)</div>
-              <div class="div">Jl. Kaharudin Nasution, UIR (Kantor Pelayanan Kas UIR)</div>
-            </div>
-          </div>
-          <div class="media mb-1">
-            <i class="icofont-phone mr-3"></i>
-            <div class="media-body">
-              <div>(0761) - 63381 </div>
-              <div>(0761) - 675119 </div>
-            </div>
-          </div>
-          <div class="media mb-1">
-            <i class="icofont-ui-email mr-3"></i>
-            <div class="media-body">
-              <div><a href="#">bprn5677@bprunisritama.com</a></div>
-              <div><a href="#">info@bprunisritama.com</a></div>
-            </div>
-          </div>
           <div class="media mb-1">
             <i class="icofont-clock-time mr-3"></i>
             <div class="media-body">

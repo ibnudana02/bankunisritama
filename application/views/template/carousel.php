@@ -1,7 +1,7 @@
-<div class="continer-fluid">
+<div class="container-fluid" style="padding: 0px">
 	<div class="bd-example">
-		<div class="row bg-sky-blue wide-tb-slide">
-			<div class="col-lg-9">
+		<div class="row bg-white wide-tb-slide">
+			<div class="col-9 slider-website">
 				<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
 					<ol class="carousel-indicators">
 						<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -41,16 +41,27 @@
 					</a>
 				</div>
 			</div>
-			<div class="col-md-3">
-				<div class="col wow fadeInRight" data-wow-duration="0" data-wow-delay="0.4s" style="margin-top: 15px">
-					<!-- Icon Box 2 -->
-					<a href="#">
-						<div class="icon-box-4 h-100">
-							<h4 class="h4-md mb-1">Produk Dana</h4>
-							<p>Ketahui Produk Tabungan dan Deposito Bank Unisritama.</p>
-						</div>
-					</a>
-					<!-- Icon Box -->
+			<div class="col-3" style="padding: 15px 0px 15px 15px">
+				<div class="row">
+					<div class="table-responsive">
+						<h2 style="font-size: 16px; font-weight: bold">Kurs Valas</h2>
+						<table class="table table-sm table-hover table-bordered">
+							<thead class="thead-dark">
+								<tr>
+									<th width="33%">Mata Uang</th>
+									<th width="33%">Jual</th>
+									<th width="33%">Beli</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>USD</td>
+									<td style="text-align: center">13.990</td>
+									<td style="text-align: center">14.000</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
 				</div>
 			</div>
 		</div>

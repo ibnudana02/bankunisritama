@@ -1,7 +1,7 @@
   <!-- Main Body Content Start -->
   <main id="body-content" style="overflow-y: inherit;">
     <!-- What Makes Us Special Start -->
-    <section class="bg-sky-blue wide-tb-100 pb-0">
+    <section class="bg-sky-blue wide-tb-30 pb-0">
       <div class="container pos-rel">
         <div class="row">
           <!-- Heading Main -->
