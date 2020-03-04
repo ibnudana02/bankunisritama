@@ -13,6 +13,7 @@
   <title>Bank Unisritama - <?php echo $page; ?></title>
   <link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url('assets/') ?>images/ico.png">
   <!-- Core Css Stylesheets -->
+  <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assets/leaflet/leaflet.css">
   <link href="<?php echo base_url('assets/') ?>css/base.css" rel="stylesheet">
   <!-- REVOLUTION STYLE SHEETS -->
   <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/') ?>rev-slider/revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
@@ -21,6 +22,7 @@
   <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/') ?>rev-slider/revolution/css/layers.css">
   <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/') ?>rev-slider/revolution/css/navigation.css">
   <link href="<?= base_url('assets/'); ?>css/base.css" rel="stylesheet">
+  <script src="<?= base_url(); ?>assets/leaflet/leaflet.js"></script>
   <style type="text/css">
     .carousel {
       background: #2f4357;

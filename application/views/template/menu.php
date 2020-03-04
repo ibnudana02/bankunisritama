@@ -29,7 +29,7 @@
             <li><a class="dropdown-item" href="<?= base_url('tentang_kami/manajemen'); ?>">Board Manajemen</a></li>
             <li><a class="dropdown-item" href="<?= base_url('tentang_kami/struktur_organisasi'); ?>">Struktur Organisasi</a></li>
             <li><a class="dropdown-item" href="<?= base_url('tentang_kami/achievement'); ?>">Penghargaan</a></li>
-            <li><a class="dropdown-item" href="<?= base_url('tentang_kami/location'); ?>">Lokasi Kantor</a></li>
+            <li><a class="dropdown-item" href="<?= base_url('tentang_kami/jaringan_kantor'); ?>">Jaringan Kantor</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
