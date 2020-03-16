@@ -84,18 +84,13 @@
 <script src="<?php echo base_url('assets/') ?>js/bootstrap-dropdownhover.min.js"></script>
 <script src="<?php echo base_url('assets/') ?>js/fontawesome-all.js"></script>
 <script src="<?php echo base_url('assets/') ?>js/owl.carousel.min.js"></script>
-<script src="<?php echo base_url('assets/') ?>twitter/jquery.tweet.js"></script>
 <script src="<?php echo base_url('assets/') ?>js/jflickrfeed.min.js"></script>
-<script src="<?php echo base_url('assets/') ?>js/jquery.waypoints.min.js"></script>
-<script src="<?php echo base_url('assets/') ?>js/jquery.easing.min.js"></script>
-<script src="<?php echo base_url('assets/') ?>js/jquery.counterup.min.js"></script>
-<script src="<?php echo base_url('assets/') ?>js/jquery.easypiechart.min.js"></script>
 <script src="<?php echo base_url('assets/') ?>js/jquery.appear.js"></script>
 <script src="<?php echo base_url('assets/') ?>js/wow.min.js"></script>
 
 <!-- Masonary Plugin -->
-<script type="text/javascript" src="<?php echo base_url('assets/') ?>js/jquery.cubeportfolio.min.js"></script>
-<script type="text/javascript" src="<?php echo base_url('assets/') ?>js/masonary-custom.js"></script>
+<!-- <script type="text/javascript" src="<?php echo base_url('assets/') ?>js/jquery.cubeportfolio.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url('assets/') ?>js/masonary-custom.js"></script> -->
 
 <!-- REVOLUTION JS FILES -->
 <script type="text/javascript" src="<?php echo base_url('assets/') ?>rev-slider/revolution/js/jquery.themepunch.tools.min.js"></script>
