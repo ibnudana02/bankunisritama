@@ -104,7 +104,7 @@
 <script type="text/javascript" src="<?php echo base_url('assets/') ?>rev-slider/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
 <script type="text/javascript" src="<?php echo base_url('assets/') ?>rev-slider/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
 <script type="text/javascript" src="<?php echo base_url('assets/') ?>rev-slider/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-<script type="text/javascript" src="<?php echo base_url('assets/') ?>rev-slider/revolution/js/extensions/revolution.extension.video.min.js"></script>
+<!-- <script type="text/javascript" src="<?php echo base_url('assets/') ?>rev-slider/revolution/js/extensions/revolution.extension.video.min.js"></script> -->
 
 <script src="<?php echo base_url('assets/') ?>js/site-custom.js"></script>
 
