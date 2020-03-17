@@ -78,9 +78,9 @@
                 <span class="d-none d-lg-inline-block">Kunjungi Kami</span> <i class="icofont-rounded-down"></i>
               </a>
               <div class="dropdown-menu dropdownhover-bottom dropdown-menu-right" role="menu">
-                <a class="dropdown-item active" href="#"><i class="icofont-instagram"></i> Instagram</a>
-                <a class="dropdown-item" href="#"><i class="icofont-facebook"></i> Facebook</a>
-                <a class="dropdown-item" href="#"><i class="icofont-whatsapp"></i> Whatsapp&lrm;</a>
+                <a class="dropdown-item active" href="https://www.instagram.com/bpr_unisritama/?hl=id" target="_blank"><i class="icofont-instagram"></i> Instagram</a>
+                <a class="dropdown-item" href="https://www.facebook.com/bankunisritama/" target="_blank"><i class="icofont-facebook"></i> Facebook</a>
+                <a class="dropdown-item" href="https://wa.me/6282391031212" target="_blank"><i class="icofont-whatsapp"></i> Whatsapp&lrm;</a>
               </div>
             </div>
             <!-- Topbar Language Dropdown End -->
