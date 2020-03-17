@@ -2,7 +2,7 @@ $(window).load(function () {
 
     'use strict';
 
-    $("#pageloader").delay(600).fadeOut("slow");
+    $("#pageloader").delay(300).fadeOut("slow");
     $(".loader-item").delay(700).fadeOut();
 
 });
