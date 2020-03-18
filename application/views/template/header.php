@@ -59,34 +59,35 @@
     </div>
   </div>
   <!-- Page loader End -->
-
-  <header class="fixed-top header-fullpage top-border top-transparent wow fadeInDown">
-    <div class="top-bar-right d-flex align-items-center text-md-left">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col">
-            <i class="icofont-location-pin"></i> Jl. Soekarno-Hatta No. 03, Pekanbaru
-            <!-- <i class="icofont-institution"></i>  Jl. Soekarno-Hatta No. 03, Pekanbaru -->
-          </div>
-          <div class="col-md-auto">
-            <span class="mr-3"><i class="icofont-phone"></i> (0761) - 63381</span>
-            <span class="mr-3"><i class="icofont-ui-email"></i> unisritama@yahoo.co.id</span>
-            <!-- Topbar Language Dropdown Start -->
-            <div class="dropdown d-inline-flex lang-toggle shadow-sm">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-hover="dropdown" data-animations="slideInUp slideInUp slideInUp slideInUp">
-                <span class="d-inline-block d-lg-none">Kunjungi Kami</span>
-                <span class="d-none d-lg-inline-block">Kunjungi Kami</span> <i class="icofont-rounded-down"></i>
-              </a>
-              <div class="dropdown-menu dropdownhover-bottom dropdown-menu-right" role="menu">
-                <a class="dropdown-item active" href="https://www.instagram.com/bpr_unisritama/?hl=id" target="_blank"><i class="icofont-instagram"></i> Instagram</a>
-                <a class="dropdown-item" href="https://www.facebook.com/bankunisritama/" target="_blank"><i class="icofont-facebook"></i> Facebook</a>
-                <a class="dropdown-item" href="https://wa.me/6282391031212" target="_blank"><i class="icofont-whatsapp"></i> Whatsapp&lrm;</a>
-              </div>
+  <?php foreach ($tentang as $row) : ?>
+    <header class="fixed-top header-fullpage top-border top-transparent wow fadeInDown">
+      <div class="top-bar-right d-flex align-items-center text-md-left">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col">
+              <i class="icofont-location-pin"></i> <?= $row['alamat']; ?>
+              <!-- <i class="icofont-institution"></i>  Jl. Soekarno-Hatta No. 03, Pekanbaru -->
             </div>
-            <!-- Topbar Language Dropdown End -->
+            <div class="col-md-auto">
+              <span class="mr-3"><i class="icofont-phone"></i> <?= $row['phone']; ?></span>
+              <span class="mr-3"><i class="icofont-ui-email"></i> <?= $row['email']; ?></span>
+              <!-- Topbar Language Dropdown Start -->
+              <div class="dropdown d-inline-flex lang-toggle shadow-sm">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-hover="dropdown" data-animations="slideInUp slideInUp slideInUp slideInUp">
+                  <span class="d-inline-block d-lg-none">Kunjungi Kami</span>
+                  <span class="d-none d-lg-inline-block">Kunjungi Kami</span> <i class="icofont-rounded-down"></i>
+                </a>
+                <div class="dropdown-menu dropdownhover-bottom dropdown-menu-right" role="menu">
+                  <a class="dropdown-item active" href="https://www.instagram.com/<?= $row['instagram']; ?>" target="_blank"><i class="icofont-instagram"></i> Instagram</a>
+                  <a class="dropdown-item" href="https://www.facebook.com/<?= $row['facebook']; ?>" target="_blank"><i class="icofont-facebook"></i> Facebook</a>
+                  <a class="dropdown-item" href="https://wa.me/<?= $row['whatsapp']; ?>" target="_blank"><i class="icofont-whatsapp"></i> Whatsapp&lrm;</a>
+                </div>
+              </div>
+              <!-- Topbar Language Dropdown End -->
+            <?php endforeach; ?>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <?php $this->load->view('template/menu'); ?>
-  </header>
+      <?php $this->load->view('template/menu'); ?>
+    </header>

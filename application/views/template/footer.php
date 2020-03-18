@@ -2,59 +2,59 @@
 <footer class="wide-tb-ibn bg-sky-dark pb-0">
   <div class="container">
     <div class="row">
+      <?php foreach ($tentang as $row) : ?>
+        <!-- Column First -->
+        <div class="col-lg-4 col-md-6 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0s">
+          <div class="logo-footer">
+            <img src="<?php echo base_url('assets/') ?>images/bpr-logo1.png" alt="">
+          </div>
+          <p class="text-justify"><b>~ Menjadi BPR yang Sehat, Kuat, Tumbuh dan Berkembang dengan mengutamakan prinsip Transparancy, Accountability, Responsibility, Independency, and Fairness” di Tahun 2023. ~</b></p>
 
-      <!-- Column First -->
-      <div class="col-lg-4 col-md-6 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0s">
-        <div class="logo-footer">
-          <img src="<?php echo base_url('assets/') ?>images/bpr-logo1.png" alt="">
+          <h3 class="footer-heading">Kunjungi Kami :</h3>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/<?= $row['facebook']; ?>/" target="_blank"><i class="icofont-facebook" data-toggle="tooltip" data-placement="top" title="Facebook"></i></a>
+            <a href="https://twitter.com/<?= $row['twitter']; ?>" target="_blank"><i class="icofont-twitter" data-toggle="tooltip" data-placement="top" title="Twitter"></i></a>
+            <a href="https://wa.me/<?= $row['whatsapp']; ?>" target="_blank"><i class="icofont-whatsapp" data-toggle="tooltip" data-placement="top" title="Whatsapp"></i></a>
+            <a href="https://www.instagram.com/<?= $row['instagram']; ?>" target="_blank"><i class="icofont-instagram" data-toggle="tooltip" data-placement="top" title="Instagram"></i></a>
+            <a href="https://www.youtube.com/channel/<?= $row['youtube']; ?>" target="_blank"><i class="icofont-youtube-play" data-toggle="tooltip" data-placement="top" title="Youtube"></i></a>
+            <a href="https://www.linkedin.com/company/<?= $row['linkedin']; ?>" target="_blank"><i class="icofont-linkedin" data-toggle="tooltip" data-placement="top" title="Linkedin"></i></a>
+          </div>
         </div>
-        <p class="text-justify"><b>~ Menjadi BPR yang Sehat, Kuat, Tumbuh dan Berkembang dengan mengutamakan prinsip Transparancy, Accountability, Responsibility, Independency, and Fairness” di Tahun 2023. ~</b></p>
-
-        <h3 class="footer-heading">Kunjungi Kami :</h3>
-        <div class="social-icons">
-          <a href="https://www.facebook.com/bankunisritama/" target="_blank"><i class="icofont-facebook" data-toggle="tooltip" data-placement="top" title="Facebook"></i></a>
-          <a href="https://twitter.com/bpr_unisritama" target="_blank"><i class="icofont-twitter" data-toggle="tooltip" data-placement="top" title="Twitter"></i></a>
-          <a href="https://wa.me/6282391031212" target="_blank"><i class="icofont-whatsapp" data-toggle="tooltip" data-placement="top" title="Whatsapp"></i></a>
-          <a href="https://www.instagram.com/bpr_unisritama/?hl=id" target="_blank"><i class="icofont-instagram" data-toggle="tooltip" data-placement="top" title="Instagram"></i></a>
-          <a href="https://www.youtube.com/channel/UCDXod80EPm_B-YndX4AMlIw" target="_blank"><i class="icofont-youtube-play" data-toggle="tooltip" data-placement="top" title="Youtube"></i></a>
-          <a href="https://www.linkedin.com/company/pt-bpr-unisritama" target="_blank"><i class="icofont-linkedin" data-toggle="tooltip" data-placement="top" title="Linkedin"></i></a>
+        <!-- Column First -->
+        <!-- Column Second -->
+        <div class="col-lg-2 col-md-6 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0.3s">
+          <h3 class="footer-heading">Menu Pintasan</h3>
+          <div class="footer-widget-menu">
+            <ul class="list-unstyled">
+              <li><a href="#"><i class="icofont-simple-right"></i> <span>Home</span></a></li>
+              <li><a href="#"><i class="icofont-simple-right"></i> <span>Tentang Kami</span></a></li>
+              <li><a href="#"><i class="icofont-simple-right"></i> <span>Produk Layanan</span></a></li>
+              <li><a href="#"><i class="icofont-simple-right"></i> <span>News</span></a></li>
+              <li><a href="#"><i class="icofont-simple-right"></i> <span>Contact</span></a></li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <!-- Column First -->
-      <!-- Column Second -->
-      <div class="col-lg-2 col-md-6 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0.3s">
-        <h3 class="footer-heading">Menu Pintasan</h3>
-        <div class="footer-widget-menu">
-          <ul class="list-unstyled">
-            <li><a href="#"><i class="icofont-simple-right"></i> <span>Home</span></a></li>
-            <li><a href="#"><i class="icofont-simple-right"></i> <span>Tentang Kami</span></a></li>
-            <li><a href="#"><i class="icofont-simple-right"></i> <span>Produk Layanan</span></a></li>
-            <li><a href="#"><i class="icofont-simple-right"></i> <span>News</span></a></li>
-            <li><a href="#"><i class="icofont-simple-right"></i> <span>Contact</span></a></li>
-          </ul>
-        </div>
-      </div>
-      <!-- Column Second -->
-      <!-- Column Third -->
-      <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0.4s">
-        <h3 class="footer-heading">Jam Pelayanan</h3>
-        <div class="footer-widget-contact">
-          <div class="media mb-1">
-            <i class="icofont-clock-time mr-3"></i>
-            <div class="media-body">
-              <div><strong>Senin - Jum'at</strong></div>
-              <div>08.00 WIB - 16.00 WIB (Kantor Pusat)</div>
-              <div>08.00 WIB - 15.00 WIB (Kantor Pelayanan Kas UIR)</div>
-              <div><strong>Jum'at</strong></div>
-              <div>15.00 WIB - 17.00 WIB (Kantor Pelayanan PASCA Sarjana UIR)</div>
-              <div><strong>Sabtu</strong></div>
-              <div>08.00 WIB - 14.00 WIB (Kantor Pelayanan PASCA Sarjana UIR)</div>
+        <!-- Column Second -->
+        <!-- Column Third -->
+        <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0.4s">
+          <h3 class="footer-heading">Jam Pelayanan</h3>
+          <div class="footer-widget-contact">
+            <div class="media mb-1">
+              <i class="icofont-clock-time mr-3"></i>
+              <div class="media-body">
+                <div><strong>Senin - Jum'at</strong></div>
+                <div>08.00 WIB - 16.00 WIB (Kantor Pusat)</div>
+                <div>08.00 WIB - 15.00 WIB (Kantor Pelayanan Kas UIR)</div>
+                <div><strong>Jum'at</strong></div>
+                <div>15.00 WIB - 17.00 WIB (Kantor Pelayanan PASCA Sarjana UIR)</div>
+                <div><strong>Sabtu</strong></div>
+                <div>08.00 WIB - 14.00 WIB (Kantor Pelayanan PASCA Sarjana UIR)</div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <!-- Column Third -->
-
+        <!-- Column Third -->
+      <?php endforeach; ?>
     </div>
   </div>
 

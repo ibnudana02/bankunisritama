@@ -21,6 +21,7 @@ class Welcome extends CI_Controller
 	 */
 	public function index()
 	{
+		$data['tentang'] = $this->tentang->get_company();
 		$data['page'] = "Home";
 		$this->load->view('template/header', $data);
 		$this->load->view('template/slider');

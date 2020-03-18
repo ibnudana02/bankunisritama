@@ -3,12 +3,21 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 class Tentang_kami extends CI_Controller
 {
+    public function __construct()
+    {
+        parent::__construct();
+        // $this->load->model('tentang');
+    }
+
     public function index()
     {
+
         $this->profil();
     }
     public function profil()
     {
+        $data['tentang'] = $this->tentang->get_company();
+        // var_dump($data);
         $data['topic'] = "Tentang Kami";
         $data['page'] = "Profil Perusahaan";
         $this->load->view('template/header', $data);
@@ -18,6 +27,7 @@ class Tentang_kami extends CI_Controller
 
     public function sejarah()
     {
+        $data['tentang'] = $this->tentang->get_company();
         $data['topic'] = "Tentang Kami";
         $data['page'] = "Sejarah";
         $this->load->view('template/header', $data);
@@ -26,6 +36,7 @@ class Tentang_kami extends CI_Controller
     }
     public function visi_misi()
     {
+        $data['tentang'] = $this->tentang->get_company();
         $data['topic'] = "Tentang Kami";
         $data['page'] = "Visi dan Misi";
         $this->load->view('template/header', $data);
@@ -35,6 +46,7 @@ class Tentang_kami extends CI_Controller
 
     public function manajemen()
     {
+        $data['tentang'] = $this->tentang->get_company();
         $data['topic'] = "Tentang Kami";
         $data['page'] = "Manajemen";
         $this->load->view('template/header', $data);
@@ -44,6 +56,7 @@ class Tentang_kami extends CI_Controller
 
     public function struktur_organisasi()
     {
+        $data['tentang'] = $this->tentang->get_company();
         $data['topic'] = "Tentang Kami";
         $data['page'] = "Struktur Organisasi";
         $this->load->view('template/header', $data);
@@ -53,6 +66,7 @@ class Tentang_kami extends CI_Controller
 
     public function achievement()
     {
+        $data['tentang'] = $this->tentang->get_company();
         $data['topic'] = "Tentang Kami";
         $data['page'] = "Penghargaan";
         $this->load->view('template/header', $data);
@@ -62,6 +76,7 @@ class Tentang_kami extends CI_Controller
 
     public function jaringan_kantor()
     {
+        $data['tentang'] = $this->tentang->get_company();
         $data['topic'] = "Tentang Kami";
         $data['page'] = "Jaringan Kantor";
         $this->load->view('template/header', $data);

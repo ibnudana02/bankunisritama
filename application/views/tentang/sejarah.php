@@ -9,7 +9,10 @@
             </div>
             <div class="row justify-content-md-center wide-tb-80">
                 <div class="col-md-6 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0s">
-                    <p class="h5 text-center"><em>"PT. BPR Unisritama telah berdiri sejak Senin tanggal 01 April 1991. PT. BPR Unisritama hadir menjadi mitra ekonomi kerakyatan kita bersama"</em></p>
+                    <!-- <p class="h5 text-center"><em>"PT. BPR Unisritama telah berdiri sejak Senin tanggal 01 April 1991. PT. BPR Unisritama hadir menjadi mitra ekonomi kerakyatan kita bersama"</em></!-->
+                    <?php foreach ($tentang as $row) : ?>
+                        <?= $row['story']; ?>
+                    <?php endforeach; ?>
                 </div>
             </div>
         </div>
